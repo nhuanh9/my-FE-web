@@ -74,3 +74,4 @@ function resize(width) {
         $(".xxx ul li:nth-child(3)").show();
     }
 }
+resize($(window).innerWidth())
