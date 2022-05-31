@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <style>
-        @media only screen and (max-width: 391px) {
+        @media only screen and (max-width: 600px) {
             .my-carousel, .xxx {
                 display: none;
             }
@@ -42,6 +42,8 @@
             position: absolute;
             margin: 0;
             padding: 0;
+            width: 100%;
+
         }
 
         .xxx li {
@@ -59,9 +61,12 @@
             top: 50px;
             left: 50px;
             opacity: 0.8;
+            max-width: 240px;
         }
 
-
+        .xxx li img {
+            width: 100%;
+        }
         .xxx li:hover {
             top: 0px;
             opacity: 1;
@@ -155,15 +160,15 @@
                         <img src="https://unsplash.it/200/200" width="200"/>
                         <p>image #3</p>
                     </li>
-                    <li>
+                    <li class="line-2">
                         <img src="https://unsplash.it/500/500" width="200"/>
                         <p>image #4</p>
                     </li>
-                    <li>
+                    <li class="line-2">
                         <img src="https://unsplash.it/200/200" width="200"/>
                         <p>image #5</p>
                     </li>
-                    <li>
+                    <li class="line-2">
                         <img src="https://unsplash.it/300/300" width="200">
                         <p>image #6</p>
                     </li>
