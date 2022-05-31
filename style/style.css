@@ -94,3 +94,23 @@ h3 {
     -moz-box-shadow: 0px 1px 6px 0px rgba(148,132,148,1);
     box-shadow: 0px 1px 6px 0px rgba(148,132,148,1);
 }
+
+
+.backtotop {
+    position: fixed;
+    display: none;
+    bottom: 0px;
+    right: 50%;
+    border-radius: 50%;
+    transform: translateX(50%);
+    cursor: pointer;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0px 1px 6px 0px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 1px 6px 0px rgb(255, 255, 255);
+    box-shadow: 0px 1px 6px 0px rgb(255, 255, 255);
+
+}
+.backtotop i {
+    color: #35363a;
+    font-size: 40px;
+}
